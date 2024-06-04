@@ -18,12 +18,6 @@ FileConverter is a Java application that reads project dependencies from a text 
    - Choose the pom.xml file when prompted.
 
 
-## Build the Project
-1. Open Terminal (or use the built-in terminal in IntelliJ IDEA)
-2. Navigate to the root directory of the project where the pom.xml file is located.
-3. Run the following command to compile the project and download dependencies:
-`mvn clean install`
-
 ## Running the Application
 Ensure projects.txt exists in the root directory and contains dependencies in this format:
 ```
